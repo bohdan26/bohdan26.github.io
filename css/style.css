@@ -1,0 +1,410 @@
+
+body{
+	overflow-x: hidden;
+}
+
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h1{
+	font-family: "Roboto-Thin";
+	font-size: 60px;
+	color: #E3E3E4;
+	text-align: center;
+	margin-top: 160px;
+	line-height: 1.2;
+}
+
+header{
+	widows: 100%;
+	min-height: 885px;
+	border-top: 10px solid #FFD800;
+	background: url(../img/stars.jpg) no-repeat #0A0E15;
+	background-size: cover;
+}
+
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.top_menu{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.logo{
+	transition: 0.5s;
+}
+
+.logo:hover{
+	transform: scale(1.1);
+}
+
+nav ul li{
+	display: inline-block;
+	text-align: center;
+	font-family: "Roboto-Bold";
+	font-size: 18px;
+}
+
+nav a{
+	display: block;
+	width: 130px;
+	height: 45px;
+	line-height: 45px;
+	color: #FDFDFD;
+	transition: background 0.7s;
+}
+
+nav a:hover,
+nav .active{
+	background: #FFD800;
+	border-radius: 5%;
+	box-shadow: 1px 3px 1px rgba(255,216,0,.3);
+	color: #060915;
+}
+
+header h1 span{
+	font-family: "Roboto-Medium";
+	color: #FFFFFF;
+}
+
+
+.register form{
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto-Bold";
+	font-size: 18px;
+	margin-top: 74px;
+}
+
+.register input{
+	background: transparent;
+	width: 160px;
+	height: 59px;
+	padding: 0 20px;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+.register input:focus{
+	border: 2px solid #FFD800;
+	box-shadow: 1px 3px 1px rgba(255,216,0,.3);
+}
+
+.register a{
+	display: block;
+	width: 163px;
+	height: 63px;
+	line-height: 63px;
+	text-align: center;
+	background: #FFD800;
+	border-radius: 5%;
+	color: #080E17;
+}
+
+.register a:hover{
+	background: linear-gradient(to top, #FFD800, #E5FF24);
+	box-shadow: 3px 5px 3px rgba(255,216,0,.3);
+	color: #636564;
+}
+
+
+
+.phone_section {
+	background: #191B29;
+	height: 660px;
+}
+  
+.phone_section .flex_container {
+  	display: flex;
+    align-items: flex-start;
+    height: 100%; 
+}
+
+.servises_block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	color: #fff; 
+}
+
+.servises_block .item{
+	font-family: "Roboto-Light";
+}
+  
+.servises_block .item h4{
+  	padding: 37px 0 37px 80px;
+  	font-size: 36px;
+}
+
+.servises_block .item p{
+  	padding-left: 8px;
+  	font-size: 16px;
+  	color: #9D9FBF;
+}
+
+.servises_block .item{
+    background-repeat: no-repeat;
+    margin-bottom: 55px; 
+}
+
+.servises_block__left .item {
+	padding-right: 20px;
+    background-position: 2% 25px;
+}
+
+
+.servises_block__right{
+	text-align: left; 
+}
+
+.servises_block__right .item {
+    padding-left: 30px;
+    background-position: 10% 25px; 
+}
+
+.phone{
+  margin-top: -145px; 
+  transition: 0.5s;
+}
+
+.phone:hover{
+	transform: scale(1.1);
+}
+
+.our_team{
+	background: #FFD800;
+	text-align: center;
+}
+
+.our_team h2{
+	font-size: 60px;
+	color: #191B29;
+	font-family: "Roboto-Thin";
+	padding-top: 135px;
+}
+
+.our_team span{
+	font-size: 36px;
+	font-family: "Roboto-Bold";
+}
+
+.team_row{
+	display: flex;
+	justify-content: center;
+	padding: 90px 0;
+}
+
+.team{
+	width: 24%;
+	margin-right: 2%;
+}
+
+.team h3{
+	font-family: "Roboto-Bold";
+	font-size: 30px;
+	margin: 30px 0 20px 0;
+}
+
+.team p{
+	font-size: 18px;
+	font-family: "Roboto-Light";
+}
+
+.team:last-child{
+	margin-right: 0;
+}
+
+.avatar{
+	width: 134px;
+	height: 134px;
+	border-radius: 50%;
+	border: 4px solid #191B29;
+	margin: 0 auto;
+	background: rgba(25,27,41,.7);
+}
+
+.avatar img{
+	transition: opacity 0.5s;
+	opacity: 0.5;
+}
+
+.avatar img:hover{
+	opacity: 1;
+}
+
+.awsome{
+	background: #FFE347;
+	position: relative;
+	color: #191B29;
+}
+
+.macbook{
+	width: 90%;
+	position: absolute;
+	top: 0;
+	right: -200px;
+}
+
+.awsome h3, .download h3, 
+.awsome p, .download p{
+	width: 25%;
+	margin-right: 10px;
+}
+
+.awsome h3, .download h3{
+	font-family: "Roboto-Bold";
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.awsome p, .download p{
+	font-size: 16px;
+}
+
+.awsome .wrapper{
+	padding: 60px 15px;
+}
+
+.download{
+	color: #191B29;
+	padding: 80px 15px 200px 15px;
+}
+
+.download p{
+	margin-bottom: 40px ;
+}
+
+.download a{
+	display: block;
+	width: 230px;
+	height: 65px;
+	line-height: 65px;
+	color: #FFFFFF;
+	background: #191B29;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto-Bold";
+	font-size: 18px;
+	transition: background 0.5s, color 0.5s;
+}
+
+.download a:hover{
+	background: #FFD800;
+	color: #191B29;
+}
+
+.app_works{
+	width: 100%;
+	min-height: 840px;
+	background: url(../img/works_bg.png) no-repeat #0F0F16;
+	background-size: cover;
+	text-align: center;
+}
+
+.app_works h2{
+	font-size: 60px;
+	font-family: "Roboto-Thin";
+	color: #BFBFC0;
+	padding: 120px 0 70px 0;
+}
+
+.app_works span{
+	font-family: "Roboto-Bold";
+	font-size: 36px;
+	color: #FFFFFF;
+}
+
+.works{
+	display: flex;
+	justify-content: center;
+}
+
+.works_item{
+	width: 24%;
+	margin-right: 2%;
+	background-position: center 0;
+	background-repeat: no-repeat;
+	transition: transform 0.5s;
+}
+.works_item:last-child{
+	margin-right: 0;
+}
+
+.works_item h3{
+	font-family: "Roboto-Bold";
+	font-size: 30px;
+	margin: 30px 0 20px 0;
+	color: #FFFFFF;
+	padding: 125px 0 15px 0;
+}
+
+.works_item p{
+	color: #BFBFC0;
+	font-size: 18px;
+	font-family: "Roboto-Light";
+}
+
+.works_item:hover{
+	transform: scale(1.1);
+	box-shadow: 0px 4px 5px rgba(255,216,0,.4);
+}
+
+
+.app_works a{
+	display: block;
+	width: 230px;
+	height: 65px;
+	line-height: 65px;
+	color: #191B29;
+	background: #FFD800;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto-Bold";
+	font-size: 18px;
+	transition: transform 0.5s;
+	margin: 80px auto 0;
+}
+
+.app_works a:hover{
+	transform: scale(0.9);
+	box-shadow: 0px 10px 20px rgba(255,216,0,.6);
+}
+
+footer{
+	background: #191B29;
+}
+
+.footer_flex{
+	display: flex;
+	justify-content: center;
+	padding: 140px 0;
+}
+
+.footer_item{
+	width: 24%;
+	margin-right: 2%;
+}
+
+.footer_item a{
+	display: block;
+	color: #FFFFFF;
+	font-family: "Roboto-Regular";
+	font-size: 18px;
+	text-transform: none;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.footer_item a:hover{
+	text-decoration: underline;
+}
